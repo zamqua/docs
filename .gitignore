@@ -1,0 +1,15 @@
+# Hugo folders
+public/
+resources/
+.hugo_build.lock
+
+# Python/SQLAlchemy
+__pycache__/
+*.py[cod]
+.venv/
+*.db
+
+# Emacs backup files
+*~
+\#*\#
+.dir-locals.el  # (Optional: keep this if you want your config to be portable)
