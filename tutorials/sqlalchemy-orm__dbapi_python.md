@@ -19,12 +19,6 @@ Source of tutorial: <https://docs.sqlalchemy.org/en/20/tutorial/dbapi_transactio
 -   Session: Your "workspace". This is where you create, delete, or update
     objects before "committing" them to the database.
 
-
-### Image {#image}
-
-{{< figure src="../../../notes/vault/images/Overview/2026-04-13_16-43-23_screenshot.png" >}}
-
-
 ## Working with Transactions and the DBAPI {#working-with-transactions-and-the-dbapi}
 
 1.  create an engine (sqlite db, use pysqlite api, store in memory, print sql
